@@ -6,7 +6,7 @@ import {
 } from "react-router-dom";
 
 import Header from './components/header/Header';
-import HomePage from './pages/home-page/home-page';
+import {HomePage} from './pages/home-page';
 
 const App = () => {
   return (

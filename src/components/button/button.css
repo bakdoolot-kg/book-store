@@ -2,17 +2,18 @@
   border-radius: 15px;
   color: black;
   border: none;
-  padding: 5px;
   cursor: pointer;
   padding: 8px;
 }
 
 .btn--primary {
   background-color: rgb(255, 176, 48);
+  color: #ffffff;
 }
 
 .btn--secondary {
   background-color: rgb(80, 82, 84);
+  color: #ffffff;
 }
 
 .btn--small {

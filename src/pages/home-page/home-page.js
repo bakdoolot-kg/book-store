@@ -32,14 +32,26 @@ const BOOKS = [
     price: 24,
     coverImage: 'https://images-na.ssl-images-amazon.com/images/I/51INyFujltL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg'
   },
+  {
+    id: 5,
+    title: 'The Sandman Book One',
+    author: 'Neil Gaiman',
+    price: 200,
+    coverImage: 'https://images-na.ssl-images-amazon.com/images/I/51INyFujltL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg'
+  },
+  {
+    id: 6,
+    title: 'The Sandman Book One',
+    author: 'Neil Gaiman',
+    price: 45,
+    coverImage: 'https://images-na.ssl-images-amazon.com/images/I/51INyFujltL._SY291_BO1,204,203,200_QL40_FMwebp_.jpg'
+  },
 ];
 
-const HomePage = () => {
+export const HomePage = () => {
   return (
     <div className='homePage'>
       {BOOKS.map(item => <BookItem book={item} key={item.id} />)}
     </div>
   );
 };
-
-export default HomePage;
