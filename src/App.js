@@ -7,6 +7,8 @@ import {
 
 import Header from './components/header/Header';
 import {HomePage} from './pages/home-page';
+import {BookPage} from "./pages/book-page";
+import {OrderPage} from "./pages/order-page";
 
 const App = () => {
   return (
@@ -14,8 +16,14 @@ const App = () => {
       <div className='app'>
         <Header />
         <Switch>
-          <Route path="/">
+          <Route exact path="/">
             <HomePage />
+          </Route>
+          <Route exact path="/book/:id/">
+            <BookPage/>
+          </Route>
+          <Route exact path="/order">
+            <OrderPage/>
           </Route>
         </Switch>
       </div>

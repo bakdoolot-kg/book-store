@@ -1,0 +1,38 @@
+/*.bookPage__content {*/
+/*    display: flex;*/
+/*}*/
+
+/*.bookPage__left {*/
+/*    width: 70%;*/
+/*}*/
+
+/*.bookPage__right {*/
+/*    width: 30%;*/
+/*}*/
+
+/*.bookPage__buy-book {*/
+/*    display: flex;*/
+/*    justify-content: flex-end;*/
+/*    margin-top: 20px;*/
+/*}*/
+
+/*================*/
+.bookPage__content {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.bookPage__left {
+    width: 60%;
+    height: 500px;
+}
+
+.bookPage__left-img {
+    width: 400px;
+    height: 550px;
+    border-radius: 10px;
+}
+
+.bookPage__right {
+    font-size: 24px;
+}
